@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Deportiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="https://www.newbalance.com.ar/on/demandware.static/Sites-NewBalance-Site/-/default/dw93afc9df/images/logo.svg" alt="New Balance">
+    </header>
+
+    <div class="hero">
+        <img src="https://www.newbalance.com.ar/dw/image/v2/BJDN_PRD/on/demandware.static/-/Library-Sites-NewBalanceSharedLibrary/default/dwc678217f/home/Banners-Sale_1920_2.jpg" alt="Running Track">
+        <div class="hero-content">
+            <h1>Te pedimos algunos datos para darte la sugerencia más adecuada</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="progress-bar">
+            <div class="progress"></div>
+            <div class="progress-steps">
+                <div class="step active">1</div>
+                <div class="step">2</div>
+                <div class="step">3</div>
+                <div class="step">4</div>
+                <div class="step">5</div>
+                <div class="step">6</div>
+                <div class="step">7</div>
+            </div>
+        </div>
+
+        <!-- Formulario -->
+        <form action="#" method="POST">
+            <!-- Step 1 -->
+            <div>
+                <h2>Soy</h2>
+                <div>
+                    <div>
+                        <img src="https://placehold.co/200x250" alt="Hombre">
+                        <button type="button">Hombre</button>
+                    </div>
+                    <div>
+                        <img src="https://placehold.co/200x250" alt="Mujer">
+                        <button type="button">Mujer</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div>
+                <h2>Si pudieras elegir una sola opción, <br> ¿Cuál es el uso mayoritario que le das al calzado?</h2>
+                <div>
+                    <button type="button">Uso diario</button>
+                    <button type="button">Caminata</button>
+                    <button type="button">Entrenamiento</button>
+                    <button type="button">Running</button>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-content" data-step="3">
+                <h2>¿Qué característica consideras como principal en un calzado?</h2>
+                <div class="button-options">
+                    <div>
+                        <input type="radio" id="level1" name="level" value="Amortiguación">
+                        <label for="level1">Amortiguación</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="level2" name="level" value="Ligereza">
+                        <label for="level2">Ligereza</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="step-content" data-step="6">
+                <h2>Ritmo de carrera (tiempo/km)</h2>
+                <div class="form-group">
+                    <input type="number" placeholder="Ingresar un número" required>
+                </div>
+            
+                <h2>Peso</h2>
+                <div class="form-group">
+                    <input type="number" placeholder="Ingresar un número" required>
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="step-content" data-step="7">
+                <h2>¡Gracias por la información!</h2>
+                <p>Te dejamos las sugerencias a continuación.</p>
+            </div>
+
+            <div class="mb-6">
+                <input type="email" placeholder="Email" required>
+            </div>
+            <button type="submit">Enviar</button>
+            <p>*Acepto suscribirme al newsletter de New Balance Argentina. No enviamos spam</p>
+        </form>
+            <!-- Final Step -->
+        <div>
+            <h2>¡Gracias por tu tiempo!</h2>
+            <p>Ahora podremos ofrecerte el producto perfecto para vos.</p>
+            <a href="#">Ir a tienda online</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
