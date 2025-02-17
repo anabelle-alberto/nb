@@ -69,8 +69,24 @@
                         <label for="level1">Amortiguación</label>
                     </div>
                     <div>
-                        <input type="radio" id="level2" name="level" value="Ligereza">
-                        <label for="level2">Ligereza</label>
+                        <input type="radio" id="level2" name="level" value="Estabilidad">
+                        <label for="level2">Estabilidad</label>
+                    </div>
+                     <div>
+                        <input type="radio" id="level3" name="level" value="Retorno de Energía">
+                        <label for="level3">Retorno de Energía</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="level4" name="level" value="Ligereza">
+                        <label for="level4">Ligereza</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="level5" name="level" value="Respirabilidad">
+                        <label for="level5">Respirabilidad</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="level5" name="level" value="Durabilidad">
+                        <label for="level6">Durabilidad</label>
                     </div>
                 </div>
             </div>
